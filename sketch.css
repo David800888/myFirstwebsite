@@ -49,7 +49,7 @@ a {
     flex-direction: row;
     background-color: chocolate;
     justify-content: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .image {
@@ -60,7 +60,7 @@ a {
 .text {
     align-self: center;
     position: relative;
-    right: 300px;
+    
 }
 
 #Who {
@@ -68,7 +68,7 @@ a {
     font-size: x-large;
     font-weight: bold;
     position: relative;
-    right: 300px;
+    
 }
 
 #Interests {
