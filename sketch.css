@@ -31,6 +31,11 @@ div {
     opacity: 0.5;
 }
 
+.project {
+    width: 20%;
+    justify-content: space-evenly;
+}
+
 a {
     width: 20%;
     text-align: center;

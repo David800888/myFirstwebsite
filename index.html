@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="sketch.css">
+    <script src="main.js" defer></script>
     <title>My Own Website</title>
 </head>
 <body>
+
     <div id="big_div">
         <a href="#">
             <div class="items">HomePage</div>
@@ -15,28 +17,28 @@
         <a href="#Who">
             <div class="items">Who are you</div>
         </a>
-        <a href="#Interests">
+        <a href="#Interests" id="refresh" onclick="refresh()">
             <div class="items">Interests</div>
         </a>
-        <a href="#">
+        <a href='#Personality' id="change" onclick="change()">
             <div class="items">Personality</div>
         </a>
         <a href="#">
             <div class="items">FOOOOOD</div>
         </a>
-        <a href="#">
-            <div class="items">Images</div>
+        <a href="html2.html">
+            <div class="items">Coding Projects</div>
         </a>
     </div>
 
     <divv id="didv">
         <p><img src="My_picture.jpg" class="image"></p>
         <p id="Who">WHO ARE YOU?</p>
-        <p class="text">Lorem ipsum dolor sit amet,</p>
-        <p class="text">consectetur adipiscing elit,</p>
-        <p class="text">sed do eiusmod tempor incididunt</p>
-        <p class="text">ut labore et dolore magna aliqua.</p>
-        <p class="text">Eget lorem dolor sed viverra ipsum nunc.</p>
+        <p class="text">You are probably asking yourself</p>
+        <p class="text">just who I am. Well my name is</p>
+        <p class="text">David Garcia and I am a coder.</p>
+        <p class="text">I learned how to code from All</p>
+        <p class="text">Star Code in the summer of 2021</p>
         <p class="text">Congue eu consequat ac felis donec et odio pellentesque diam.</p>
         <p class="text">In iaculis nunc sed augue lacus viverra vitae congue.</p>
         <p class="text">Ligula ullamcorper malesuada proin libero.</p>
@@ -45,8 +47,8 @@
     <divv id="didv">
         <p id="Interests">Interests</p>
         <div id="row">
-            <img src="My_Artwork.jpg" class="Images">
-            <p class="text2">Lorem ipsum dolor sit amet, consectetur<br>
+            <img src="My_Artwork.jpg" class="Images" id="Img">
+            <p class="text2" id="words">Lorem ipsum dolor sit amet, consectetur<br>
             adipiscing elit, sed do eiusmod tempor<br>
             incididunt ut labore et dolore magna<br>
             aliqua. Eget lorem dolor sed viverra<br>
