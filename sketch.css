@@ -1,6 +1,6 @@
 body {
     background-color: chocolate;
-    width: 90%
+    width: 99%
 }
 
 div {
@@ -14,7 +14,7 @@ div {
 
 #big_div {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
